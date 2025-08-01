@@ -1,0 +1,16 @@
+[project]
+name = "synapse-evaluation-tools"
+version = "0.1.0"
+description = "Local tools for testing and evaluating the SYNAPSE project."
+requires-python = ">=3.11" 
+
+dependencies = [
+    "pandas",
+    "httpx",
+    "sacrebleu",
+    "unbabel-comet",
+    "rouge-score",
+    "sentence-transformers",
+    "openpyxl",
+    "nltk>=3.9.1",
+]
